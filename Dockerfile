@@ -92,4 +92,4 @@ ENTRYPOINT ["bash"]
 
 # build images run
 # docker build -t gradle . 
-# docker run --name gradle -it -v ./Fastbot_Android:/home/project gradle
+# docker run --name gradle -it --rm  -v ./Fastbot_Android:/home/project gradle
